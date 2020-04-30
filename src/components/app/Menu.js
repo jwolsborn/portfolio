@@ -18,17 +18,17 @@ const Linkmenu = withRouter(props => {
             </Menu.Item>
             <Menu.Item key="/about-me">
                 <Icon type="user-add" />
-                <span>Add Faculty</span>
+                <span>About Me</span>
                 <Link to="/about-me" />
             </Menu.Item>
             <Menu.Item key="/projects">
                 <Icon type="usergroup-add" />
-                <span>Add Committee</span>
+                <span>Projects</span>
                 <Link to="/projects" />
             </Menu.Item>
             <Menu.Item key="/contact">
                 <Icon type="user" />
-                <span>Faculty Info</span>
+                <span>Contact</span>
                 <Link to="/contact" />
             </Menu.Item>
         </Menu>

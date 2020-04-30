@@ -5,6 +5,7 @@ class Home extends Component {
         return (
             <div className="Home">
                 <h1>Welcome to the Josh Wolsborns Portfolio Home Page!</h1>
+                <img src='josh.jpeg' alt="Josh's picture"/>
             </div>
         );
     }

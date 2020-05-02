@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import './aboutme.css';
+import codeBanner from "./codingbanner.jpg";
 
 class AboutMe extends Component {
     render() {
         return (
             <div className="About">
+                <img src={codeBanner} alt="code"/>
                 <h1><u>About Me</u></h1>
                   <p>My name is Josh Wolsborn and I'm a Computer Science student at Portland State University.
                   I will be graduating in Spring of 2020 with a B.S. in Computer Science.  I plan on immediately

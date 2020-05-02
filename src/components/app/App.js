@@ -4,6 +4,7 @@ import { HashRouter, Switch, Route, Redirect } from "react-router-dom";
 import { Layout } from 'antd';
 import LinkMenu from './Menu.js';
 import Home from '../home';
+import AboutMe from "../aboutme";
 
 const { Header, Content, Footer, Sider } = Layout;
 
@@ -41,6 +42,7 @@ class App extends Component {
                   <Route exact path="/" render={() => <Redirect to="/home" />} />
 
                   <Route path="/home" component={Home} />
+                  <Route path="/about-me" component={AboutMe} />
                 </Switch>
             </Content>
             <Footer className="footer">Ant Design ©2016 Created by Ant UED</Footer>

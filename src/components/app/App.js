@@ -5,6 +5,7 @@ import { Layout } from 'antd';
 import LinkMenu from './Menu.js';
 import Home from '../home';
 import AboutMe from "../aboutme";
+import Projects from "../projects";
 
 const { Header, Content, Footer, Sider } = Layout;
 
@@ -43,6 +44,7 @@ class App extends Component {
 
                   <Route path="/home" component={Home} />
                   <Route path="/about-me" component={AboutMe} />
+                  <Route path="/projects" component={Projects}/>
                 </Switch>
             </Content>
             <Footer className="footer">Ant Design ©2016 Created by Ant UED</Footer>
